@@ -1,0 +1,73 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #0a1128;
+  color: white;
+}
+
+header {
+  background-color: #8b0000;
+  color: white;
+  padding: 15px 0;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+.navbar,
+.nav {
+  background-color: #8b0000 !important;
+}
+
+.navbar .nav-link,
+.nav .nav-link {
+  color: white !important;
+}
+
+.navbar .nav-link:hover,
+.nav .nav-link:hover {
+  color: #ffcccb !important;
+}
+
+section {
+  padding: 3rem 0;
+  background-color: #16213e;
+}
+
+footer {
+  background-color: #8b0000;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+}
+
+.btn-primary {
+  background-color: #8b0000 !important;
+  border-color: #8b0000 !important;
+}
+
+.btn-primary:hover {
+  background-color: #a52a2a !important;
+  border-color: #a52a2a !important;
+}
+
+.form-control {
+  background-color: #1a1a2e;
+  color: white;
+  border: 1px solid #8b0000;
+}
+
+.form-control::placeholder {
+  color: #ccc;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.rounded-circle {
+  border-radius: 50%;
+  border: 3px solid #8b0000;
+}
